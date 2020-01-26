@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchPanelActivity"><![CDATA[
+
+
+
+
+   />
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="388dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/searchCaptionEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="Caption"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/captionSearchinstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="52dp"
+        android:text="@string/enter_caption_search_here" />
+
+    <EditText
+        android:id="@+id/startTimeeditText"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/searchTimeinstruction"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="-57dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Start Time"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/searchTimeinstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchCaptionEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="Enter Time Search here" />
+
+    <EditText
+        android:id="@+id/endTimeeditText"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/searchTimeinstruction"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="-53dp"
+        android:ems="10"
+        android:hint="End Time"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/endTimeeditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="-80dp"
+        android:onClick="startSearching"
+        android:text="Search" />
+
+</RelativeLayout>

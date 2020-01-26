@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab2_API19_V4</string>
+    <string name="button_search">Search</string>
+    <string name="search">Search</string>
+    <string name="enter_caption_search_here">Enter Caption Search here</string>
+    <string name="name">Name</string>
+</resources>
